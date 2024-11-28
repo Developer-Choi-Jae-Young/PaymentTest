@@ -6,7 +6,7 @@ const PaymentComponent = () => {
 
     const requestPay = () => {
         const IMP = window.IMP;
-        IMP.init('imp82236188'); // 실제 가맹점 식별코드를 입력하세요.
+        IMP.init('imp번호'); // 실제 가맹점 식별코드를 입력하세요.
 
         setIsLoading(true);
 
